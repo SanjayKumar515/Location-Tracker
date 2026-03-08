@@ -193,12 +193,12 @@ const Home: React.FC<HomeProps> = ({ navigation }) => {
                 console.log(`Duration: ${result.duration} min.`);
                 fetchTime(result.distance, result.duration);
                 mapRef.current?.fitToCoordinates(result.coordinates, {
-                  edgePadding: {
-                    right: 30,
-                    bottom: 300,
-                    left: 30,
-                    top: 100,
-                  },
+                //   edgePadding: {
+                //     // right: 30,
+                //     // bottom: 300,
+                //     // left: 30,
+                //     // top: 100,
+                //   },
                 });
               }}
               onError={(errorMessage) => {

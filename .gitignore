@@ -1,0 +1,13 @@
+# dependencies
+node_modules/
+
+# ios
+ios/Pods/
+
+# android
+android/.gradle
+android/app/build/
+
+# misc
+.DS_Store
+.env
